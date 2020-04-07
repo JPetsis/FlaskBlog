@@ -10,6 +10,7 @@
     <div>
       Microblog:
       <a href="{{ url_for('index') }}">Home</a>
+      <a href="{{ url_for('explore') }}">Explore</a>
       {% if current_user.is_anonymous %}
       <a href="{{ url_for('login') }}">Login</a>
       {% else %}
@@ -18,15 +19,12 @@
       {% endif %}
     </div>
     <hr>
-    {% with messages = get_flashed_messages() %}
-    {% if messages %}
+    {% with messages = get_flashed_messages() %} {% if messages %}
     <ul>
       {% for message in messages %}
       <li>{{ message }}</li>
       {% endfor %}
     </ul>
-    {% endif %}
-    {% endwith %}
-    {% block content %}{% endblock %}
+    {% endif %} {% endwith %} {% block content %}{% endblock %}
   </body>
 </html>
