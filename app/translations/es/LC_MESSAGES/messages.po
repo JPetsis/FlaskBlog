@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-15 16:34+0200\n"
+"POT-Creation-Date: 2020-04-15 16:58+0200\n"
 "PO-Revision-Date: 2020-04-14 15:53+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -23,8 +23,8 @@ msgid "Please log in to access this page."
 msgstr "Por favor ingrese para acceder a esta página."
 
 #: app/email.py:23
-msgid "[Microblog] Reset Your Password"
-msgstr "[Microblog] Nueva Contraseña"
+msgid "[blog] Reset Your Password"
+msgstr "[blog] Nueva Contraseña"
 
 #: app/forms.py:9 app/forms.py:16 app/forms.py:49
 msgid "Username"
@@ -176,8 +176,8 @@ msgid "Translate"
 msgstr "Traducir"
 
 #: app/templates/base.html:2
-msgid "Welcome to Microblog"
-msgstr "Bienvenido a Microblog"
+msgid "Welcome to blog"
+msgstr "Bienvenido a blog"
 
 #: app/templates/base.html:27
 msgid "Login"
@@ -253,4 +253,10 @@ msgstr "Seguir"
 #: app/templates/user.html:21
 msgid "Unfollow"
 msgstr "Dejar de seguir"
+
+#~ msgid "[Microblog] Reset Your Password"
+#~ msgstr "[Microblog] Nueva Contraseña"
+
+#~ msgid "Welcome to Microblog"
+#~ msgstr "Bienvenido a Microblog"
 
